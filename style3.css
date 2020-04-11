@@ -1,0 +1,49 @@
+h2 {
+	text-align: center;
+}
+h3 {
+	padding-top: 20px;
+	text-align: center;
+}
+section {
+	margin: 30px;
+	padding: 20px;
+}
+div {
+	background-color: #808080;
+}
+p {
+	margin: 30px;
+}
+.navbar {
+	border: 2px solid #000000;
+	text-align: center;
+	background-color: #808080;
+
+}
+
+.navbar > .navbar-nav {
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+li a {
+	border: 1px solid #000000;
+}
+.navbar .navbar-brand {
+	color: #000000;
+}
+.navbar .navbar-nav {
+	padding: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: #FFFFFF;
+	border-top: 2px solid #000000;
+}
+.navbar .navbar-nav > li > a {
+	color: #000000;
+}
+@media (min-width: 767px) {
+	.navbar .navbar-nav {
+		display: none;
+	}
+}
